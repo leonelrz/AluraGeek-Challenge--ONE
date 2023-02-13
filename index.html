@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/contacto.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+
+    <title>Alura Geek</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class = "logo-busqueda">
+                <a href="../index.html"><div class="logo">
+                        <img src="assets/img/logo.svg" alt="logo">
+                        <p class="logo-azul">Alura</p><p>Geek</p>
+                </div></a>
+                <input class="buscar" i type="text" placeholder="Qué estas buscando?">
+            </div>
+
+            <div class="login">
+                <a href="screens/login.html"><button type="submit">Login</button></a>
+            </div>
+
+        </nav>
+    </header>
+
+    <section class="destaque">
+        <div class="banner">
+            <h1>Abril Promocional</h1><br>
+            <h4>Productos seleccionados con 33% de descuento</h4><br>
+            <button>Ver Consolas</button>
+        </div>
+    </section>
+
+    <section class="geral-prods">
+        <div class="prod-titulo">
+            <div class="titulo">
+                <p>Star Wars</p>
+            </div>
+            <div class="mostrar-mas">
+                <a href="screens/todos-productos.html"><p>Ver Todo <img src="assets/img/flecha.svg" alt="flecha"></p></a>
+            </div>
+        </div>
+        
+        <section class="seccion-productos" data-starwars>
+            <!--<div class="prod-holder">
+                <div class="produto">
+                    <img class="img-producto" src="assets/img/taza-blanca.svg" alt="taza">
+                    <p class="descripcion">Producto xyz</p>
+                    <p class="precio">$ 60,00</p>
+                    <a href="screens/producto.html">Ver Producto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img class="img-producto" src="assets/img/cabezas.svg" alt="cabezas">
+                    <p class="descripcion">Producto xyz</p>
+                    <p class="precio">$ 60,00</p>
+                    <a href="">Ver Producto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img class="img-producto" src="assets/img/yoda.svg" alt="yoda">
+                    <p class="descripcion">Producto xyz</p>
+                    <p class="precio">$ 60,00</p>
+                    <a href="">Ver Producto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img class="img-producto" src="assets/img/hombre-blanco.svg" alt="hombre-blanco">
+                    <p class="descripcion">Producto xyz</p>
+                    <p class="precio">$ 60,00</p>
+                    <a href="">Ver Producto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img class="img-producto" src="assets/img/bebe-yoda.svg" alt="bbyoda">
+                    <p class="descripcion">Producto xyz</p>
+                    <p class="precio">$ 60,00</p>
+                    <a href="">Ver Producto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img class="img-producto" src="assets/img/hombre-pistola.svg" alt="hombre pistola">
+                    <p class="descripcion">Producto xyz</p>
+                    <p class="precio">$ 60,00</p>
+                    <a href="">Ver Producto</a>
+                </div>
+            </div>-->
+        </section>
+    
+        <div class="prod-titulo">
+            <div class="titulo">
+                <p>Consolas</p>
+            </div>
+            <div class="mostrar-mas">
+                <a href="screens/todos-productos.html"></a><p>Ver Todo <img src="assets/img/flecha.svg" alt="flecha"></p></a>
+            </div>
+        </div>
+        
+        <section class="seccion-productos" data-consolas>
+            <!--<div class="prod-holder">
+                <div class="produto">
+                    <img class="img-producto" src="assets/img/control-xbox.svg" alt="controlxbox">
+                    <p class="descripcion">Consola XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <a href="">Ver Producto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img class="img-producto" src="assets/img/play5.svg" alt="ps5">
+                    <p class="descripcion">Consola XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <a href="">Ver Producto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img class="img-producto" src="assets/img/nintendo-nes.svg" alt="nes">
+                    <p class="descripcion">Consola XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <a href="">Ver Producto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img class="img-producto" src="assets/img/control-swich.svg" alt="switch">
+                    <p class="descripcion">Consola XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <a href="">Ver Producto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img class="img-producto" src="assets/img/xbox-one.svg" alt="xbox-one">
+                    <p class="descripcion">Consola XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <a href="">Ver Producto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img class="img-producto" src="assets/img/gameboy.svg" alt="gameboy">
+                    <p class="descripcion">Consola XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <a href="">Ver Producto</a>
+                </div>
+            </div>-->
+        </section>
+      
+        <div class="prod-titulo">
+                <div class="titulo">
+                    <p>Diversos</p>
+                </div>
+                <div class="mostrar-mas">
+                    <a href="screens/todos-productos.html"></a><p>Ver Todo <img src="assets/img/flecha.svg" alt="flecha"></p></a>
+                </div>
+        </div>
+        
+        <section class="seccion-productos" data-diversos>
+            <!--<div class="prod-holder">
+                <div class="produto">
+                    <img class="img-producto" src="assets/img/playera-atari.svg" alt="atari">
+                    <p class="descripcion">Camiseta Atari</p>
+                    <p class="precio">$ 60,00</p>
+                    <a href="">Ver Producto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img class="img-producto" src="assets/img/playera-nes.svg" alt="playera-nes">
+                    <p class="descripcion">Camiseta Snes</p>
+                    <p class="precio">$ 60,00</p>
+                    <a href="">Ver Produto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img class="img-producto" src="assets/img/sonic.svg" alt="sonic">
+                    <p class="descripcion">Sonic XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <a href="">Ver Producto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img class="img-producto" src="assets/img/radio-vieja.svg" alt="radio">
+                    <p class="descripcion">Despertador XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <a href="">Ver Producto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img class="img-producto" src="assets/img/lentesVR.svg" alt="lentesvr">
+                    <p class="descripcion">VR XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <a href="">Ver Producto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img class="img-producto" src="assets/img/pikachu.svg" alt="Pikachu">
+                    <p class="descripcion">Pikachu XYZ</p>
+                    <p class="precio">$ 60,00</p>
+                    <a href="">Ver Producto</a>
+                </div>
+            </div>
+        </section>-->
+    </section>
+
+    <section class="contacto">
+
+        <div class="contenerdor">
+            <div class="referencia">
+                <img src="assets/img/logo.svg" alt="logo">
+                <p class="logo-azul">Alura<p>Geek</p>
+            </div>
+
+            <div class="links-utiles">
+                <a href="">Quienes somos</a> <br>
+                <a href="">Política de Privacidad</a> <br>
+                <a href="">Programa de fidelidad</a> <br>
+                <a href="">Nuetras Tiendas</a> <br>
+                <a href="">Quiero ser franquiciado</a> <br>
+                <a href="">Anuncie aqui</a>
+            </div>
+
+        </div>
+
+        <div class="form">
+            <p>Hable con nosotros</p>
+                <div class="label-float">
+                  <input type="text" name="Nome" id="Nome" class="input-nombre" placeholder="Nombre">
+                  
+                </div>
+            
+                <textarea name="mensagem" id="msg" cols="5" rows="5" placeholder="Escribe un mensaje"></textarea>
+            <button>Enviar Mensaje</button>
+        </div>
+    </section> 
+
+    <section class="footer">
+        <div class="footer__rodape">
+            <p>Desarrollado por Leonel Reyes Zarate</p>
+            <p>Como parte del programa educativo Oracle Next Education</p>
+            <p>2022</p>
+        </div>
+    </section>
+
+    <script type="module" src="controllers/controller-categoria-productos.js"></script>
+</body>

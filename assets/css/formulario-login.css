@@ -1,0 +1,72 @@
+/*--------------------Variables--------------------*/
+:root {
+    --bg-color: #ebebeb;
+    --input-placeholder: #d4d4d4;
+    --input-bg: #efefef;
+    --texto-destaque: #FFFF;
+    --azul-destaque: #2a7ae4;
+    --bg-contacto: #Eaf2fd;
+  }
+
+
+.formulario{
+    background-color: var(--input-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.formulario p{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.formulario input{
+    width: 423px;
+    height: 64px;
+    border: none;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.formulario button{
+    width: 350px;
+    height: 64px;
+    background-color: var(--azul-destaque);
+    color: var(--bg-color);
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    margin-top: 25px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 400px){
+    .formulario input{
+        width: 85vw;
+        height: 50px;
+    }
+
+    .formulario button{
+        width: 175px;
+        height: 50px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .formulario input{
+        width: 85vw;
+        height: 50px;
+    }
+
+    .formulario button{
+        width: 250px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+}

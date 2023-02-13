@@ -1,0 +1,168 @@
+{
+    "producto":[
+        {
+            "name": "Taza blanca",
+            "imageUrl": "../assets/img/taza-blanca.svg",
+            "price": "100.00",
+            "id": 1,
+            "alt": "producto",
+            "section": "Star Wars",
+            "description":"adsfasdfasdfsdafds",
+            "productoUrl":"../screens/producto.html"
+        },
+        {
+            "name": "Cabezas de lego",
+            "imageUrl": "../assets/img/cabezas.svg",
+            "price": "100.00",
+            "id": 2,
+            "alt": "producto",
+            "section": "Star Wars",
+            "description":"adsfasdfasdfsdafds"
+        },
+        {
+            "name": "Yoda",
+            "imageUrl": "../assets/img/yoda.svg",
+            "price": "100.00",
+            "id": 3,
+            "alt": "producto",
+            "section": "Star Wars",
+            "description":"adsfasdfasdfsdafds"
+        },
+        {
+            "name": "Stormtrooper",
+            "imageUrl": "../assets/img/hombre-blanco.svg",
+            "price": "100.00",
+            "id": 4,
+            "alt": "producto",
+            "section": "Star Wars",
+            "description":"adsfasdfasdfsdafds"
+        },
+        {
+            "name": "Bebe Yoda",
+            "imageUrl": "../assets/img/bebe-yoda.svg",
+            "price": "100.00",
+            "id": 5,
+            "alt": "producto",
+            "section": "Star Wars",
+            "description":"adsfasdfasdfsdafds"
+        },
+        {
+            "name": "Figura Kylo Ren",
+            "imageUrl": "../assets/img/hombre-pistola.svg",
+            "price": "100.00",
+            "id": 6,
+            "alt": "producto",
+            "section": "Star Wars",
+            "description":"adsfasdfasdfsdafds"
+        },
+        {
+            "name": "Control Xbox",
+            "imageUrl": "../assets/img/control-xbox.svg",
+            "price": "100.00",
+            "id": 7,
+            "alt": "producto",
+            "section": "Consolas",
+            "description":"adsfasdfasdfsdafds"
+        },
+        {
+            "name": "Play Station 5",
+            "imageUrl": "../assets/img/play5.svg",
+            "price": "100.00",
+            "id": 8,
+            "alt": "producto",
+            "section": "Consolas",
+            "description":"adsfasdfasdfsdafds"
+        },
+        {
+            "name": "Nintendo NES",
+            "imageUrl": "../assets/img/nintendo-nes.svg",
+            "price": "100.00",
+            "id": 9,
+            "alt": "producto",
+            "section": "Consolas",
+            "description":"adsfasdfasdfsdafds"
+        },
+        {
+            "name": "Control Nintendo Swich",
+            "imageUrl": "../assets/img/control-swich.svg",
+            "price": "100.00",
+            "id": 10,
+            "alt": "producto",
+            "section": "Consolas",
+            "description":"adsfasdfasdfsdafds"
+        },
+        {
+            "name": "Xbox Series X",
+            "imageUrl": "../assets/img/xbox-one.svg",
+            "price": "100.00",
+            "id": 11,
+            "alt": "producto",
+            "section": "Consolas",
+            "description":"adsfasdfasdfsdafds"
+        },
+        {
+            "name": "Game Boy Color",
+            "imageUrl": "../assets/img/gameboy.svg",
+            "price": "100.00",
+            "id": 12,
+            "alt": "producto",
+            "section": "Consolas",
+            "description":"adsfasdfasdfsdafds"
+        },
+        {
+            "name": "Camisa Atari",
+            "imageUrl": "../assets/img/playera-atari.svg",
+            "price": "100.00",
+            "id": 13,
+            "alt": "producto",
+            "section": "Diversos",
+            "description":"adsfasdfasdfsdafds"
+        },
+        {
+            "name": "Camisa NES",
+            "imageUrl": "../assets/img/playera-nes.svg",
+            "price": "100.00",
+            "id": 14,
+            "alt": "producto",
+            "section": "Diversos",
+            "description":"adsfasdfasdfsdafds"
+        },
+        {
+            "name": "Figura Sonic",
+            "imageUrl": "../assets/img/sonic.svg",
+            "price": "100.00",
+            "id": 15,
+            "alt": "producto",
+            "section": "Diversos",
+            "description":"adsfasdfasdfsdafds"
+        },
+        {
+            "name": "Radio",
+            "imageUrl": "../assets/img/radio-vieja.svg",
+            "price": "100.00",
+            "id": 16,
+            "alt": "producto",
+            "section": "Diversos",
+            "description":"adsfasdfasdfsdafds"
+        },
+        {
+            "name": "Lentes VR",
+            "imageUrl": "../assets/img/lentesVR.svg",
+            "price": "100.00",
+            "id": 17,
+            "alt": "producto",
+            "section": "Diversos",
+            "description":"adsfasdfasdfsdafds"
+        },
+        {
+            "name": "Botarga Pikachu",
+            "imageUrl": "../assets/img/pikachu.svg",
+            "price": "100.00",
+            "id": 18,
+            "alt": "producto",
+            "section": "Diversos",
+            "description":"adsfasdfasdfsdafds"
+        }
+    ]
+    
+}

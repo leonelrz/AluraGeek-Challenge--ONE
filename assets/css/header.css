@@ -1,0 +1,143 @@
+/*-------------Header principal------------*/
+
+header{
+    background-color: var(--texto-destaque);
+    padding: 32.5px 155px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+/*-------------Divs del header------------*/
+
+.logo-busqueda{
+    width: 80vw;
+    margin: 0 auto;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 30px;
+    width: 40px;
+}
+
+.logo p{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.logo .logo-azul{
+    margin-left: 10px;
+    color: var(--azul-destaque);
+}
+
+.logo-busqueda input{
+    margin-left: 10%;
+    width: 395px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 1% 3%;
+    border: none;
+    background-color: var(--input-bg);
+    background-image: url(../img/lupa.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 310px;
+}
+
+.login{
+    width: 600px;
+    display: flex;
+    justify-content: end;
+}
+
+.login button{
+    width: 180px;
+    height: 50px;
+    background: none;
+    border: 1px solid var(--azul-destaque);
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+.login button:hover{
+    background-color: var(--azul-destaque);
+    color: var(--texto-destaque);
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 400px){
+    header{
+        width: auto;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    
+    .buscar{
+        display: none;
+    }
+
+    .logo img{
+        height: 20px;
+        width: 30px;
+    }
+    
+    .logo p{
+        font-size: 22px;
+    }
+
+    .login button{
+        width: 100px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 1024px ){
+    header{
+        width: auto;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .logo-busqueda input{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        width: 250px;
+    }
+
+    .login{
+        width: 220px;
+        display: flex;
+        justify-content: end;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    header{
+        width: auto;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .logo-busqueda input{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        width: 250px;
+    }
+
+    .login{
+        width: 220px;
+        display: flex;
+        justify-content: end;
+    }
+}
