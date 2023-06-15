@@ -114,17 +114,6 @@ haremos lo siguiente:
 - Node.js
 - NPM
 - JSON SERVER
-
-
-
-## :heavy_check_mark: Tecnologías aplicadas
-    
-    - HTML5
-    - CSS3
-    - JavaScript
-    - Node.js
-    - NPM
-    - JSON SERVER
     
     
 #### Autores 
